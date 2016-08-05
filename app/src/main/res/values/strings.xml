@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Helpman</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hint_id">Registered Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="navigation_item_2">Your Requests</string>
+    <string name="navigation_item_1">Profile</string>
+    <string name="title_activity_request_service">Request Service</string>
+    <string name="title_activity_requests_history">RequestsHistory</string>
+    <string name="title_activity_order_details">OrderDetails</string>
+
+    <string name="msg_order_details_received_status">Your request has been received. We will soon get back to you with further updates. Thank You!</string>
+    <string name="msg_order_details_processing_status">A person has been assigned to your request.</string>
+    <string name="msg_order_details_closed_status">The request has been serviced and is now closed.</string>
+    <string name="msg_order_details_cancelled_status">This request was cancelled.</string>
+    <string name="navigation_item_3">Logout</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="hint_register_id">Mobile Number</string>
+    <string name="hint_pwd_reg">Create Password(at least 6 characters)</string>
+    <string name="hint_name_reg">Name</string>
+    <string name="hint_addr_reg">Complete Address</string>
+    <string name="hint_city_reg">City</string>
+    <string name="hint_state_reg">State</string>
+</resources>

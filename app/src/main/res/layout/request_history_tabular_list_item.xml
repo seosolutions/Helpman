@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:layout_marginLeft="15sp"
+    android:layout_marginRight="15sp"
+    android:layout_marginBottom="50sp"
+    android:paddingTop="30sp">
+
+    <TableRow android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/order_id_label"
+            android:layout_width="match_parent"
+            android:padding="2sp"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Request Id#"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/order_id"
+            android:layout_width="match_parent"
+            android:padding="2sp"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:text="1"
+            android:textColor="#FFFFFF"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:background="@color/common_action_bar_splitter">
+
+        <TextView
+            android:id="@+id/service_label"
+            android:layout_width="match_parent"
+            android:padding="2sp"
+            android:textSize="15sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Service Requested"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/service"
+            android:layout_width="match_parent"
+            android:padding="2sp"
+            android:textSize="15sp"
+            android:gravity="left"
+            android:text="Carpenter"
+            android:textColor="#000000"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:background="@color/common_action_bar_splitter">
+
+        <TextView
+            android:id="@+id/status_label"
+            android:layout_width="match_parent"
+            android:padding="2sp"
+            android:textSize="15sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Status"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:padding="2sp"
+            android:textSize="15sp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:text="RECEIVED"/>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/row4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2sp"
+        android:background="@color/common_action_bar_splitter">
+
+        <TextView
+            android:id="@+id/date_label"
+            android:layout_width="match_parent"
+            android:padding="2sp"
+            android:textSize="15sp"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:text="Requested on"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:padding="2sp"
+            android:textSize="15sp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:text="21st-Mar-2016 07:05 PM"/>
+    </TableRow>
+
+</TableLayout>

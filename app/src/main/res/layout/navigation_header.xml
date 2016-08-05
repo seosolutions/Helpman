@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/icon"
+        android:paddingTop="100sp"
+        android:src="@drawable/ic_account_circle_white_24dp"
+        android:foregroundGravity="left"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/nav_header"
+        android:layout_below="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="10sp"
+        android:paddingBottom="10sp"
+        android:paddingTop="10sp"/>
+
+</RelativeLayout>
